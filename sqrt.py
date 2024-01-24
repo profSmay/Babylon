@@ -30,6 +30,8 @@ def sqrt(a, precision=0.01):
         r0=r1
     return r1
 
+def highOrderRoot(a, n, precision=0.001):
+    pass
 def main():
     R = sqrt(90, 0.00000001)
     print(R)
